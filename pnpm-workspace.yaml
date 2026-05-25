@@ -1,1 +1,4 @@
 shamefullyHoist: true
+
+onlyBuiltDependencies:
+  - playwright-chromium
