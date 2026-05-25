@@ -10,6 +10,8 @@ drawings:
 transition: slide-left
 comark: true
 duration: 10min
+seoMeta:
+  ogImage: auto
 ---
 
 # 個人開発から切り出す<br>個人開発で一石二鳥しよう！

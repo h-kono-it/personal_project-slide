@@ -30,8 +30,14 @@ jobs:
           node-version: 22
           cache: pnpm
 
+      - name: Install Japanese fonts
+        run: sudo apt-get install -y fonts-noto-cjk
+
       - name: Install dependencies
         run: pnpm install
+
+      - name: Install Playwright browser
+        run: pnpm exec playwright install chromium
 
       - name: Build slides
         run: pnpm slidev build --base /personal_project-slide/
