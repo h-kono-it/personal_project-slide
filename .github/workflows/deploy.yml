@@ -33,9 +33,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Install Playwright browsers
-        run: npx playwright install chromium --with-deps
-
       - name: Build slides
         run: pnpm slidev build --base /personal_project-slide/
 
