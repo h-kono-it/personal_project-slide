@@ -20,7 +20,7 @@
     "playwright-chromium": "^1.60.0"
   },
   "pnpm": {
-    "ignoredBuiltDependencies": [
+    "onlyBuiltDependencies": [
       "playwright-chromium"
     ]
   }
