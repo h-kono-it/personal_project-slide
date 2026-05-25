@@ -3,9 +3,15 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "prebuild": "node scripts/generate-og.mjs",
+    "build": "slidev build --base /personal_project-slide/",
     "dev": "slidev --open",
     "export": "slidev export"
+  },
+  "devDependencies": {
+    "@resvg/resvg-wasm": "^2.6.2",
+    "budoux": "^0.8.4",
+    "satori": "^0.12.1"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.1",

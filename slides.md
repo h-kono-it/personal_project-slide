@@ -1,6 +1,7 @@
 ---
 theme: seriph
 title: 個人開発から切り出す個人開発で一石二鳥しよう！
+author: hk_it7
 info: |
   ## 個人開発LT祭 2026年
   個人開発から切り出す個人開発で一石二鳥しよう！
@@ -10,6 +11,22 @@ drawings:
 transition: slide-left
 comark: true
 duration: 10min
+head:
+  - - meta
+    - property: og:title
+      content: 個人開発から切り出す個人開発で一石二鳥しよう！
+  - - meta
+    - property: og:description
+      content: 「自分のために作ったもの」を「みんなのため」にも届ける — 個人開発LT祭 2026年
+  - - meta
+    - property: og:image
+      content: https://h-kono-it.github.io/personal_project-slide/og-image.png
+  - - meta
+    - property: og:url
+      content: https://h-kono-it.github.io/personal_project-slide/
+  - - meta
+    - name: twitter:card
+      content: summary_large_image
 ---
 
 # 個人開発から切り出す<br>個人開発で一石二鳥しよう！
